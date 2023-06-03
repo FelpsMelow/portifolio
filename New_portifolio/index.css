@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #0e141b;
+    color: white; /*Alterando a cor das fontes temporariamento por aqui*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    background-color: #0e141b;
+
+}
+
+.container {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_my_info {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.header_avatar {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_ul_menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+}
+
+.nav_item {
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+.nav_item h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_item h4:hover {
+    margin-top: 1px;
+    border-bottom: 4px solid #ff5277;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    background-image: url(./Mode.png);
+    background-position: center center;
+    background-size: cover;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+/*Stilo main*/
+
+.container_main {
+    margin-top: 15vh;
+    width: 80%;
+    height: max-content;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+.salutation {
+    color: #ff5277;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.i_am {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+.description {
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin-bottom: 90px;
+}
+
+.my_projects {
+    text-shadow: rgb(61, 51, 51) 0.1em 0.1em 0.1em;
+}
+
+.container_projects {
+    width: 100%;
+    height: max-content;
+    margin-top: 20px;
+}
+
+.list_projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./to_do_app.png);
+    background-size: cover;
+    background-position: center center;
+    list-style: none;
+    width: 21%;
+    min-width: 225px;
+    height: 350px ;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.project_item:hover {
+  .project_description {
+    opacity: 1;
+    transition: opacity 0.8s;
+  }
+}
+
+.project_description {
+    opacity: 0;
+    font-weight:bolder;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em
+}
+
+.technologies {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.p_entre_em_contato {
+    color: #ff2957;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.p_entre_em_contato:hover {
+    color: #ff5277;
+}
+
+.entre_em_contato {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seta_contato {
+    margin-left: 10px;
+    width: 17px;
+}
+
+
+.footer {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-top: 1px solid #2d2d2d;
+}
+
+.footer div h4 a{
+    color: white;
+    width: max-content;
+}
+
+.privacy_policy {
+    color: white;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.contatos a img {
+    height: 30px;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #161515d0;
+}
