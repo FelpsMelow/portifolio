@@ -279,7 +279,7 @@ button {
         position: fixed;
         right: 0;
         width: 150px;
-        height: 100vh;
+        height: 100%;
         background-color: #293038;
     }
     
