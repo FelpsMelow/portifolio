@@ -17,17 +17,20 @@ body {
     align-items: center;
 }
 
-header {
+.header_tag {
     position: fixed;
     background-color: #0e141b;
 
 }
 
 /*Iniciando os elementos da página */
-.menu{
+.btn_menu{
     display: none;
 }
 
+.responsive_menu {
+    display: none;
+}
 
 .container {
     width: 100vw;
@@ -241,6 +244,7 @@ button {
 
 .contatos a img {
     height: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
 
@@ -259,11 +263,54 @@ button {
     .header_nav {
         display: none;
     }
-    .menu {
+
+    .btn_menu {
         display: block;
         width: 3rem;
         height: 3rem;
         cursor: pointer;
+    }
+
+    .responsive_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        right: 0;
+        width: 150px;
+        height: 100vh;
+        background-color: #293038;
+    }
+    
+    .header_responsive_menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .btn_fechar {
+        margin: 5px;
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+    }
+
+    .nav_ul_responsive_menu {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .nav_ul_responsive_menu li {
+        margin-bottom: 5px;
+    }
+
+    .tema_menu {
+        margin-bottom: 20px;
     }
 
     .container {
@@ -283,10 +330,6 @@ button {
         font-size: 1.2rem;
     }
 
-    .my_projects {
-        text-align: center;
-    }
-
     .list_projects {
         flex-direction: column;
         align-items: center;
@@ -295,4 +338,4 @@ button {
     .privacy_policy {
         display: none;
     }
-}
+}  

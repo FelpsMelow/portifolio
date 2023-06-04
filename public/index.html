@@ -8,7 +8,7 @@
     <title>Felipe Melo</title>
 </head>
 <body>
-    <header>
+    <header class="header_tag">
         <div class="container">
             <a href="" class="header_my_info">
                 <img class="header_avatar" src="assets/imgs/index/foto_de_perfil.jpg" alt="minha foto de apresentação">
@@ -32,7 +32,7 @@
                 </nav>
                 <button class="tema"></button>
             </div>
-            <img src="assets/imgs/index/burger-bar.png" alt="menu" class="menu">
+            <img src="assets/imgs/index/burger-bar.png" alt="menu" class="btn_menu" onclick="show_menu_bar()">
         </div>
     </header>
     <main class="container_main">
@@ -166,6 +166,27 @@
             </div>
         </div>
     </main>
+    <menu class="responsive_menu" id="responsive_menu">
+        <div>
+            <header class="header_responsive_menu">
+                <img src="assets/imgs/index/reject.png" alt="botão de fechar" class="btn_fechar" onclick="hide_menu_bar()">
+            </header>
+            <nav>
+                <ul class="nav_ul_responsive_menu">
+                    <li class="nav_item">
+                        <h4><strong>01</strong><a href="index.html"> Home</a></h4>
+                    </li>
+                    <li class="nav_item">
+                        <h4><strong>02</strong><a href="sobre.html"> Sobre</a></h4>
+                    </li>
+                    <li class="nav_item">
+                        <h4><strong>03</strong><a href="contato.html"> Contato</a></h4>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <button class="tema_menu"></button>
+    </menu>
     <footer class="footer">
         <div>
             <h4>© 2012–2023 <a href="">Felipe Melo</a></h4>
@@ -179,5 +200,6 @@
             <a href="https://replit.com/@FelpsMelow" target="_blank"><img src="assets/imgs/index/New_Replit_Logo.svg.png" alt="logo do replit"></a>
         </div>
     </footer>
+    <script type="text/JavaScript" src="assets/js/index.js"></script>
 </body>
 </html>
