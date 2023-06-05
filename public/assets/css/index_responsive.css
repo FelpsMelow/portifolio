@@ -1,0 +1,97 @@
+@media screen and (max-width: 700px) {
+    .header_nav {
+        display: none;
+    }
+
+    .btn_menu {
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+    }
+
+    .responsive_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        right: 0;
+        width: 150px;
+        height: 100vh;
+        background-color: #293038;
+    }
+    
+    .header_responsive_menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .btn_fechar {
+        margin: 5px;
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+    }
+
+    .nav_ul_responsive_menu {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .nav_ul_responsive_menu li {
+        margin-bottom: 5px;
+    }
+
+    .tema_menu {
+        margin-bottom: 20px;
+    }
+
+    .container_main {
+        width: 95%;
+    }
+
+    .container {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .salutation {
+        font-size: 1.8rem;
+    }
+
+    .i_am {
+        font-size: 2.8rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .my_projects {
+        font-size: 1.5rem;
+    }
+
+    .list_projects {
+        justify-content: space-around;
+    }
+
+    .project_item {
+        min-width: 165px;
+        height: 300px;
+        padding: 5px 10px;
+    }
+
+    .title_project {
+        font-size: 1rem;
+    }
+
+    .privacy_policy {
+        display: none;
+    }
+}
