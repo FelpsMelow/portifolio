@@ -52,4 +52,8 @@
     .tema_menu {
         margin-bottom: 20px;
     }
+
+    .privacy_policy {
+        display: none;
+    }
 }

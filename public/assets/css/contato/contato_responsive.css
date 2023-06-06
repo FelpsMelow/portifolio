@@ -7,7 +7,52 @@
     }
 
     .left_container , .right_container {
-        width: 80%;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .left_container div {
+        padding: 0;
+    }
+
+    .form {
+        padding: 0;
+    }
+
+    .my_text {
+        text-align: justify;
+    }
+
+    .svg_melhoria {
+        margin: 0;
+    }
+
+    .form h2 {
+      font-size: 1.2rem;
+    }
+
+    .nome_email_container {
+        flex-direction: column;
+    }
+
+    .nome_completo {
+        width: 100%;
+    }
+    
+    .e_mail {
+        width: 100%;
+    }
+
+    .assunto_submit_container {
+        flex-direction: column;
+    }
+
+    .assunto {
+        width: 100%;
+    }
+
+    .label_btn_enviar {
+        width: 100%;
     }
 
     .footer {

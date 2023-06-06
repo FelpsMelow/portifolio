@@ -144,7 +144,7 @@ input::content {
     font-weight: bolder;
 }
 
-.descricao_assunto_container {
+.assunto_submit_container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
