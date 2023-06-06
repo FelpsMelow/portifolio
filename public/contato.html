@@ -1,21 +1,132 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/contato/contato.css">
+    <link rel="stylesheet" href="assets/css/common/header.css">
+    <link rel="stylesheet" href="assets/css/common/scroll_bar.css">
+    <link rel="stylesheet" href="assets/css/common/footer.css">
+    <link rel="stylesheet" href="assets/css/contato/contato_responsive.css">
+    <link rel="stylesheet" href="assets/css/common/menu_responsive.css">
+    <title>Sobre</title>
+</head>
+<body>
+    <header class="header_tag">
+        <div class="container">
+            <a href="" class="header_my_info">
+                <img class="header_avatar" src="assets/imgs/index/foto_de_perfil.jpg" alt="minha foto de apresentação">
+                <span class="header_name">
+                    <strong><h3>Felipe Melo</h3></strong>
+                </span>
+            </a>
+            <div class="header_nav">
+                <nav class="nav" role="navigation">
+                    <ul class="nav_ul_menu">
+                        <li class="nav_item">
+                            <h4><strong>01</strong><a href="index.html"> Home</a></h4>
+                        </li>
+                        <li class="nav_item">
+                            <h4><strong>02</strong><a href="sobre.html"> Sobre</a></h4>
+                        </li>
+                        <li class="nav_item">
+                            <h4><strong>03</strong><a href="contato.html"> Contato</a></h4>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="tema"></button>
+            </div>
+            <img src="assets/imgs/index/burger-bar.png" alt="menu" class="btn_menu" onclick="show_menu_bar()">
+        </div>
+    </header>
+    <main class="container_main">
+        <section class="left_container">
+            <div>
+                
+                <section class="my_text">
+                    <h1>
+                        Me ajude a melhorar.
+                    </h1>
+                    <h4>
+                        Se você tiver sugestões ou feedbacks de
+                        como posso melhorar o meu portifólio, ficaría
+                        muito grato em ouvi-lo.
+                        
+                    </h4>
+                </section>
+                
+                <section class="my_animation">
+                    <img src="assets/imgs/sobre/in-progress-animate.svg" class="svg_melhoria" alt="animação de melhoria continua">
+                </section>
+                    
+                
+            </div>
+        </section>
+        <section class="right_container">
+            <form action="" class="form">
+                <h2>Me envie um e-mail</h2>
+
+                <div class="nome_email_container">
+                    <label for="nome_completo" class="nome_completo"><strong>Nome completo</strong>
+                        <input type="text" id="nome_completo" placeholder="Nome completo" autocomplete="name">
+                    </label>
+                    
+                    <label for="e_mail" class="e_mail"><strong>E-Mail</strong>
+                        <input type="email" id="e_mail" placeholder="E-mail" autocomplete="email">
+                    </label>
+                </div>
+
+                <label for="dercricao"><strong>Escreva suas orientações logo abaixo:</strong></label>
+                <textarea name="" id="dercricao" rows="5"></textarea>
+                
+                <div class="descricao_assunto_container">
+    
+                    <label for="assunto" class="assunto "><strong>Assunto</strong>
+                        <input type="text" id="assunto" placeholder="Assunto">
+                    </label>
+
+                    <label for="submit" class="label_btn_enviar">
+                        <input type="submit" class="btn_enviar">
+                    </label>
+                </div>
+            </form>
+        </section>
+    </main>
+    <menu class="responsive_menu" id="responsive_menu">
+        <div>
+            <header class="header_responsive_menu">
+                <img src="assets/imgs/index/reject.png" alt="botão de fechar" class="btn_fechar" onclick="hide_menu_bar()">
+            </header>
+            <nav>
+                <ul class="nav_ul_responsive_menu">
+                    <li class="nav_item">
+                        <h4><strong>01</strong><a href="index.html"> Home</a></h4>
+                    </li>
+                    <li class="nav_item">
+                        <h4><strong>02</strong><a href="sobre.html"> Sobre</a></h4>
+                    </li>
+                    <li class="nav_item">
+                        <h4><strong>03</strong><a href="contato.html"> Contato</a></h4>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <button class="tema_menu"></button>
+    </menu>
+    <footer class="footer">
+        <div>
+            <h4>© 2012–2023 <a href=""> <br> Felipe Melo</a></h4>
+        </div>
+        <p>
+            <a href="#" class="privacy_policy"><h4>Política de privacidade</h4></a>
+        </p>
+        <div class="contatos">
+            <a href="https://www.linkedin.com/in/felipe-melo-441040174" target="_blank"><img src="assets/imgs/index/linkedin.png" alt="logo do linkedin"></a>
+            <a href="https://github.com/FelpsMelow" target="_blank"><img src="assets/imgs/index/github.png" alt="logo do github"></a>
+            <a href="https://replit.com/@FelpsMelow" target="_blank"><img src="assets/imgs/index/New_Replit_Logo.svg.png" alt="logo do replit"></a>
+        </div>
+    </footer>
+    <script type="text/JavaScript" src="assets/js/common/responsive_header.js"></script>
+</body>
 </html>

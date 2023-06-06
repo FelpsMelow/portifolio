@@ -17,88 +17,6 @@ body {
     align-items: center;
 }
 
-.header_tag {
-    position: fixed;
-    background-color: #0e141b;
-
-}
-
-/*Iniciando os elementos da página */
-.btn_menu{
-    display: none;
-}
-
-.responsive_menu {
-    display: none;
-}
-
-.container {
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header_my_info {
-    width: max-content;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-}
-
-.header_avatar {
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
-    margin-right: 25px;
-}
-
-.header_nav {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav_ul_menu {
-    list-style: none;
-    display: flex;
-    flex-direction: row; 
-}
-
-.nav_item {
-    cursor: pointer;
-    padding: 10px 25px;
-}
-
-.nav_item h4 a {
-    text-decoration: none;
-    color: white;
-}
-
-.nav_item h4:hover {
-    margin-top: 1px;
-    border-bottom: 4px solid #ff5277;
-}
-
-button {
-    width: 3rem;
-    height: 3rem;
-    background-image: url(../imgs/index/mode.png);
-    background-position: center center;
-    background-size: cover;
-    background-color: white;
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-
-}
 
 /*Stilo main*/
 
@@ -152,7 +70,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(../imgs/index/fundo_padrao.png);
+    background-image: url(../../imgs/index/fundo_padrao.png);
     background-size: cover;
     background-position: center center;
     list-style: none;
@@ -213,48 +131,3 @@ button {
     margin-left: 10px;
     width: 17px;
 }
-
-
-.footer {
-    width: 100%;
-    height: max-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px 0;
-    border-top: 1px solid #2d2d2d;
-}
-
-.footer div h4 a{
-    color: white;
-    width: max-content;
-}
-
-.privacy_policy {
-    color: white;
-}
-
-.contatos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 150px;
-}
-
-.contatos a img {
-    height: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
-
-
-::-webkit-scrollbar-track {
-    background-color: #F4F4F4;
-}
-::-webkit-scrollbar {
-    width: 6px;
-    background: #F4F4F4;
-}
-::-webkit-scrollbar-thumb {
-    background: #161515d0;
-}  

@@ -1,0 +1,16 @@
+@media screen and (max-width: 1150px) , (max-height: 560px) {
+    .container_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+
+    .left_container , .right_container {
+        width: 80%;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+}

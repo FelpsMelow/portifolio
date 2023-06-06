@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #2d2d2d;
+}
+
+.footer div h4 a{
+    color: white;
+    width: max-content;
+}
+
+.privacy_policy {
+    color: white;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.contatos a img {
+    height: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
