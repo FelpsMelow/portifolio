@@ -11,6 +11,10 @@
         padding: 5px;
     }
 
+    .left_container {
+        margin-bottom: 50px;
+    }
+
     .left_container div {
         padding: 0;
     }
