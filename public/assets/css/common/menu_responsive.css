@@ -1,5 +1,10 @@
 @media screen and (max-width: 700px) { 
 
+    .container {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
     .header_nav {
         display: none;
     }
@@ -12,14 +17,14 @@
     }
 
     .responsive_menu {
+        width: 200px;
+        height: 100vh;
         display: none;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         position: fixed;
         right: 0;
-        width: 150px;
-        height: 100vh;
         background-color: #293038;
     }
 

@@ -3,12 +3,7 @@
     .container_main {
         width: 95%;
     }
-
-    .container {
-        justify-content: space-between;
-        padding: 0 20px;
-    }
-
+    
     .salutation {
         font-size: 1.8rem;
     }
