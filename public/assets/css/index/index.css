@@ -116,10 +116,6 @@ body {
     cursor: pointer;
 }
 
-.p_entre_em_contato:hover {
-    color: #ff5277;
-}
-
 .entre_em_contato {
     width: max-content;
     display: flex;
@@ -129,7 +125,7 @@ body {
 
 .entre_em_contato_link {
     text-decoration: none;
-    color: #ff2957;
+    color: #ff5277;
 }
 
 .seta_contato {
