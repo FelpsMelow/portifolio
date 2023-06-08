@@ -22,12 +22,22 @@
     }
 
     .form {
-        width: 100%;
-        padding: 0;
+        width: 95%;
+        border-radius: 5px;
+        padding: 20px;
+        background-color: var(--form-bg);
+        color: var(--form-text-color);
     }
 
     .form h2 {
-      font-size: 1.2rem;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .my_text {
+        margin-left: calc(5%/2);
+        width: 95%;
     }
 
     .my_animation {

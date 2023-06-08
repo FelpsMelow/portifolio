@@ -25,7 +25,7 @@
         justify-content: space-between;
         position: fixed;
         right: 0;
-        background-color: #293038;
+        background-color: var(--menu-bg);
     }
 
     .header_responsive_menu {
@@ -58,7 +58,24 @@
         margin-bottom: 20px;
     }
 
-    .privacy_policy {
+    .privacy_policy { /*Tirar daqui e colocar em uma
+                      folha de estilo que faça sentido*/
         display: none;
+    }
+
+    button {
+        width: 3rem;
+        height: 3rem;
+        background-image: url(../../imgs/index/mode.png);
+        background-position: center center;
+        background-size: cover;
+        background-color: white;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
     }
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+@import url('../common/color_themes.css');
 body * {
     box-sizing: border-box;
     margin: 0;
@@ -10,8 +11,8 @@ body * {
 
 body {
     margin: 0;
-    background-color: #0e141b;
-    color: white; /*Alterando a cor das fontes temporariamento por aqui*/
+    background-color: var(--body-bg);
+    color: var(--body-color); /*Alterando a cor das fontes temporariamento por aqui*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +34,7 @@ body {
 }
 
 .salutation {
-    color: #ff5277;
+    color: var(--custom-text-color);
     font-size: 2rem;
     margin-bottom: 5px;
 }
@@ -51,7 +52,7 @@ body {
 }
 
 .my_projects {
-    text-shadow: rgb(61, 51, 51) 0.1em 0.1em 0.1em;
+    text-shadow: var(--text-shadow) 0.1em 0.1em 0.1em;
 }
 
 .container_projects {
@@ -85,6 +86,10 @@ body {
     cursor: pointer;
 }
 
+.title_project {
+    color: white;
+}
+
 .project_item:hover {
   .project_description {
     opacity: 1;
@@ -96,11 +101,12 @@ body {
     opacity: 0;
     font-weight:bolder;
     color: white;
-    text-shadow: black 0.1em 0.1em 0.1em
+    text-shadow: var(--text-shadow-above-item) 0.1em 0.1em 0.1em
 }
 
 .technologies {
     width: 100%;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -125,7 +131,7 @@ body {
 
 .entre_em_contato_link {
     text-decoration: none;
-    color: #ff5277;
+    color: var(--custom-text-color);
 }
 
 .seta_contato {
