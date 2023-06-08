@@ -119,6 +119,10 @@ input::content {
     font-weight: bolder;
 }
 
+.label_e_mail {
+    margin-left: 10px;
+}
+
 .descricao {
     padding: 10px;
     resize: none;
@@ -140,11 +144,20 @@ input::content {
     align-items: flex-end;
 }
 
+.label_assunto {
+    width: 55%;
+}
+
+.label_btn_enviar {
+    width: calc(45% - 10px);
+}
+
 .btn_enviar {
     border: none;
     width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
     min-width: 88px;
-    padding: 10px;
     border-radius: 5px;
     outline: none;
     text-transform: uppercase;

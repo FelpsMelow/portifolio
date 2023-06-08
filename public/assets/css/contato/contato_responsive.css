@@ -35,6 +35,10 @@
         margin-bottom: 20px;
     }
 
+    .label_e_mail {
+        margin: 0;
+    }
+
     .my_text {
         margin-left: calc(5%/2);
         width: 95%;
