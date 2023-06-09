@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+@import url('../common/color_themes.css');
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: var(--body-bg);
+    color: var(--body-color); /*Alterando a cor das fontes temporariamento por aqui*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_main {
+    margin-top: 15vh;
+    width: 80%;
+    height: max-content;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    
+}
+
+.sobre_mim {
+    margin-bottom: 50px;
+}
+
+.sobre_mim h1 {
+    color: var(--custom-text-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.article_sobre_mim div {
+    overflow-x: visible;
+
+}
+
+.article_sobre_mim p {  /*---------------------*/
+    text-align: justify;
+    font-size: 1.5rem;
+    overflow-x: visible;
+}
+
+.img_foto_de_perfil {   /*---------------------*/
+    width: 160px;
+    border-radius: 5px;
+    float: right; 
+    margin-left: 20px;
+}
+
+.habilidades {
+    margin-bottom: 50px;
+}
+
+.habilidades h1 {
+    color: var(--custom-text-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.card_habilidade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    cursor: pointer;
+    padding: 15px 15px 0px 15px;
+    border-radius: 5px;
+    background-color: #5e6d81;
+    margin-bottom: 10px;
+}
+
+.article_habilidades {
+    width: calc(100% - 135px)
+}
+
+.article_habilidades h5 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.article_habilidades h4 {
+    margin-bottom: 10px;
+    text-shadow: var(--text-shadow) 0.1em 0.1em 0.1em;
+}
+
+
+.img_content {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.img_habilidade {
+    width: 60px;
+    height: min-content;
+    margin-bottom: 15px;
+}
+
+.certificados h1 {
+    color: var(--custom-text-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.certificados_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(58, 73, 73, 0.322);
+}
+
+.certificado_card {
+    width: 200px;
+    height: 270px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+.p_entre_em_contato {
+    width: 100%;
+    margin-top: 20px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.entre_em_contato {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entre_em_contato_link {
+    text-decoration: none;
+    color: var(--custom-text-color);
+}
+
+.seta_contato {
+    margin-left: 10px;
+    width: 17px;
+}
