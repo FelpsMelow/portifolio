@@ -1,8 +1,7 @@
 @media screen and (max-width: 700px) { 
 
-    .container {
-        justify-content: space-between;
-        padding: 0 20px;
+    .responsive_menu {
+        z-index: 100;
     }
 
     .header_nav {

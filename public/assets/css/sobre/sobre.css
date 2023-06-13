@@ -35,9 +35,10 @@ body {
 }
 
 .sobre_mim h1 {
-    color: var(--custom-text-color);
     font-size: 2rem;
     margin-bottom: 10px;
+    color: var(--custom-text-color);
+    text-shadow: var(--text-shadow) 0.1em 0.1em 0.1em;
 }
 
 .article_sobre_mim div {
@@ -45,17 +46,17 @@ body {
 
 }
 
-.article_sobre_mim p {  /*---------------------*/
-    text-align: justify;
-    font-size: 1.5rem;
+.article_sobre_mim h5 {  /*---------------------*/
+    text-align:justify;
+    font-size: 1.2rem;
     overflow-x: visible;
 }
 
 .img_foto_de_perfil {   /*---------------------*/
-    width: 160px;
+    width: 100px;
     border-radius: 5px;
     float: right; 
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .habilidades {
@@ -63,9 +64,10 @@ body {
 }
 
 .habilidades h1 {
-    color: var(--custom-text-color);
     font-size: 2rem;
     margin-bottom: 10px;
+    color: var(--custom-text-color);
+    text-shadow: var(--text-shadow) 0.1em 0.1em 0.1em;
 }
 
 .card_habilidade {
@@ -81,7 +83,7 @@ body {
 }
 
 .article_habilidades {
-    width: calc(100% - 135px)
+    width: calc(100% - 135px);
 }
 
 .article_habilidades h5 {
@@ -97,6 +99,7 @@ body {
 
 .img_content {
     width: 120px;
+    height: min-content;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -111,34 +114,56 @@ body {
 }
 
 .certificados h1 {
-    color: var(--custom-text-color);
     font-size: 2rem;
     margin-bottom: 10px;
+    color: var(--custom-text-color);
+    text-shadow: var(--text-shadow) 0.1em 0.1em 0.1em;
 }
 
 .certificados_content {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgba(58, 73, 73, 0.322);
+    gap: 10px;
 }
 
 .certificado_card {
-    width: 200px;
-    height: 270px;
+    width: 270px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 15px;
     border-radius: 5px;
-    background-color: bisque;
+    background-color: #060030;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
+.certificado_card header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.certificado_card header h3 {
+    font-size: 1.5rem;
+    text-shadow: var(--text-shadow) 0.1em 0.1em 0.1em;
+}
 
+.certificado_card header img {
+    width: 30px;
+    height: auto;
+}
 
+.certificado_card p a {
+    text-decoration: none;
+    color: var(--link-color);
+}
 
-
-
-
-
-
+.certificado_card p a:hover {
+    color: var(--link-hover-color);
+}
 
 .p_entre_em_contato {
     width: 100%;

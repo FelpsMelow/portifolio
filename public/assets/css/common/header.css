@@ -3,7 +3,8 @@
 .header_tag {
     position: fixed;
     background-color: var(--header-bg);
-
+    z-index: 100;
+    box-shadow: 0 7px 20px RGBA(0,0,0,.15);
 }
 
 /*Iniciando os elementos da página */

@@ -1,0 +1,14 @@
+@media screen and (max-width: 700px) {
+    
+    .container_main {
+        width: 95%;
+    }
+   
+    .img_content {
+        display: none;
+    }
+
+    .article_habilidades {
+        width: 100%;
+    }    
+}

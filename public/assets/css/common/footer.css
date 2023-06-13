@@ -11,13 +11,13 @@
     border-top: 1px solid var(--header-border);
 }
 
-.footer div h4 a{
+.footer a{
     color: var(--link-color);
     width: max-content;
 }
 
-.privacy_policy {
-    color: var(--link-color);
+.footer a:hover {
+    color: var(--link-hover-color);
 }
 
 .contatos {
