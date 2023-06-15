@@ -1,0 +1,79 @@
+@import url('../common/color_themes.css');
+
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: var(--body-bg);
+    color: var(--body-color); /*Alterando a cor das fontes temporariamento por aqui*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    margin-top: 50px;
+    width: 85%;
+}
+
+.main h2 {
+    color: var(--custom-text-color) !important;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #112e59;
+}
+
+.main h3 {
+    color: #666;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #f35f00;
+}
+
+.main p {
+    margin-bottom: 10px;
+}
+
+.main a {
+    color: #204abd;
+    text-decoration: none;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
+.main ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #112e59;
+}
+
+.main li {
+    margin-bottom: 5px;
+}
+
+.main strong {
+    font-weight: bold;
+}
+
+/* barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #e2dfdfa2;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #a8a1a1;
+}
