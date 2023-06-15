@@ -1,5 +1,9 @@
 @media screen and (max-width: 700px) { 
 
+    .responsive_menu div{
+       width: 100%;
+    }
+
     .responsive_menu {
         z-index: 100;
     }

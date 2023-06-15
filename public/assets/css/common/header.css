@@ -46,6 +46,12 @@
     flex-direction: row;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .nav_ul_menu {
     list-style: none;
     display: flex;
@@ -54,7 +60,11 @@
 
 .nav_item {
     cursor: pointer;
-    padding: 10px 25px;
+    padding: 5px 20px;
+}
+
+.nav_item:hover {
+    background-color: rgba(173, 165, 165, 0.425);
 }
 
 .nav_item h4 a {
@@ -63,8 +73,7 @@
 }
 
 .nav_item h4:hover {
-    margin-top: 1px;
-    border-bottom: 4px solid #ff5277;
+    border-bottom: 3.5px solid #ff5277;
 }
 
 .tema {
@@ -81,4 +90,5 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-left: 15px;
 }
