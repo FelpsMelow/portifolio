@@ -105,6 +105,14 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
+.to_do_app {
+    background-image: url(../../imgs/index/projects/to_do_app.jpg);
+}
+
+.busca_cep {
+    
+}
+
 .title_project {
     cursor: pointer;
 }
