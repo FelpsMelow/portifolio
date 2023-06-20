@@ -6,7 +6,6 @@ body * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace;
-    overflow-x: hidden;
 }
 
 body {
@@ -161,8 +160,9 @@ body {
 
 .certificado_card p a {
     text-decoration: none;
-    color: var(--link-color);
+    color: var(--link-card-color);
 }
+
 
 .certificado_card p a:hover {
     color: var(--link-hover-color);

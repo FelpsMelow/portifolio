@@ -12,6 +12,7 @@
     --btn-color: white;
     --custom-text-color: #ff5277;
     --link-color: white;
+    --link-card-color: white;
     --link-hover-color: #d6d1d1;
     --header-border: #2d2d2d;
     --form-bg: #213041;
@@ -33,6 +34,7 @@
     --btn-color: white;
     --custom-text-color: #ff5277;
     --link-color: black;
+    --link-card-color: white;
     --link-hover-color: #d6d1d1;
     --header-border: rgba(170, 167, 167, 0.445);
     --form-bg: #213041;
